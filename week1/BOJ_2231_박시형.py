@@ -8,6 +8,7 @@ for i in range(N-27,N): # 999가 최댓값이므로 각자리수의 합인 27을
         sum_N += int(j) # 분해합 구하기
         if sum_N == N:
             print(i)
-            break
-    if sum_N == N:
-        break# 이중반복문 빠져나오기
+            exit() # 프로그램 종료
+            # break
+    # if sum_N == N:
+    #     break # 이중반복문 빠져나오기

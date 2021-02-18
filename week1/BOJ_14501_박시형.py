@@ -10,8 +10,8 @@ T = [] # 상담시간
 P = [] # 수당
 money = 0
 for i in range(N):
-    T.append(ri(1,5))
-    P.append(ri(5,1000))
+    T.append(ri(1,5)) # 1부터 5 랜덤
+    P.append(ri(5,1000)) # 5부터 1000랜덤
 print(T)
 print(P)
 num = P[:] # shallow copy(새로운 id 할당)
